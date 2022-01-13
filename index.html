@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Glenn Ludszuweit</title>
+  </head>
+  <body onload="loadConsole()">
+    <div>
+      <div class="header-container">
+        <div class="header">glennludszuweit.de</div>
+      </div>
+      <div id="container" class="container">
+        <div class="console" id="console">
+          Portfolio <span style="color: lightgreen">version 2.0</span>
+          <br />
+          Powered by <span style="color: khaki">JavaScript</span>.
+          <br />
+          Hi my name is Glenn, welcome to my Website. I am thrilled that you are
+          interested to learn more about me!
+          <br />
+          For more information about me type in
+          <span style="color: lime">'start'</span>, for my work experience it's
+          <span style="color: magenta">'experience'</span>, and for my studies
+          and acheivements that's
+          <span style="color: gold">'education'.</span>
+          <br />
+        </div>
+        <input
+          id="command"
+          class="command"
+          onkeypress="onKeyPress(event)"
+          type="text"
+        />
+      </div>
+    </div>
+  </body>
+  <script src="./data.js"></script>
+  <script src="./index.js"></script>
+</html>

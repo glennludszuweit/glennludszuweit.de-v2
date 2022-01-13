@@ -1,1 +1,0 @@
-# [glennludszuweit.de v2](https://glennludszuweit.de)

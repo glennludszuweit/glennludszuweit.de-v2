@@ -1,0 +1,68 @@
+html {
+  background-color: #000;
+}
+
+body {
+  width: 95%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.container {
+  border: solid rgb(119, 140, 157) 0.1em;
+  border-top: 0;
+  /* border-radius: 0 0 0.25em 0.25em; */
+  background-color: black;
+  color: snow;
+  padding: 0.5em;
+  height: calc(100vh - 6em);
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.4em;
+  margin-bottom: 2em;
+}
+
+.console {
+  margin: 0.25em;
+  font-size: 1em;
+}
+
+input[type="text"] {
+  background-color: rgb(19, 18, 18);
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  font-size: inherit;
+  margin-top: 0;
+  display: block;
+  width: 100%;
+  cursor: default;
+}
+
+input[type="text"]::-ms-clear {
+  display: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.header-container {
+  width: 100%;
+  height: 1.7em;
+  background: linear-gradient(
+    rgba(234, 232, 234, 0.75),
+    rgba(212, 210, 212, 0.75)
+  );
+  border-bottom: solid 0.1em rgb(175, 172, 175);
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  font-size: 1em;
+  color: rgb(27, 19, 19);
+}
