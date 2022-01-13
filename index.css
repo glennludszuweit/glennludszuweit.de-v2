@@ -16,7 +16,7 @@ body {
   background-color: black;
   color: snow;
   padding: 0.5em;
-  height: calc(100vh - 6em);
+  height: calc(100vh - 7em);
   overflow-y: auto;
   overflow-x: hidden;
   font-family: "Courier New", Courier, monospace;
